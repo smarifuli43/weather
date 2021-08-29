@@ -1,3 +1,8 @@
+const spinner = document.getElementById('spinner');
+window.addEventListener('load', () => {
+spinner.style.display = 'none';
+  });
+
 // error
 const error = document.getElementById('error');
 error.style.display = 'none';
